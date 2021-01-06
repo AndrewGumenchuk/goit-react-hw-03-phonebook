@@ -13,7 +13,7 @@ const contacTest = [
 
 class App extends React.Component {
   state = {
-    contacts: contacTest,
+    contacts: [],
     filter: '',
   };
   addContact = (name, number) => {
